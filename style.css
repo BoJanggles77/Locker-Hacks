@@ -6,9 +6,20 @@ table,tr,td{
     border: 1px solid black;
 }
 
+td{
+	background:#FAFAFA;
+	text-align: center;
+
+}
+
 table{
     width:100%;
     text-align:center;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    border-collapse: 
+    collapse; border-spacing: 0;
 }
 
 td{
@@ -29,26 +40,68 @@ td{
 	float: center;
 }
 
+
+
+input[type=text]:focus {
+    border: 3px solid black;
+}
+
+input{
+	width: 20%;
+	padding: 12px 20px
+}
+
+#textBox{
+	text-align: center;
+	color: black;
+}
+
 #button-container {
 	margin-top: 50px;
 	text-align: center;
 }
 
+
+#button-container1 {
+	margin-top: 50px;
+	text-align: center;
+}
+
+img {
+	width: 50vw;
+}
+
 #click{
-	width: 400px;
 	background: #626060;
 	color: white;
 }
 
 #option1{
-
 	width: 300px;
 	color: #05973A;
+	transition-duration: 0.6s;
+	border-radius: 7px;
+	background-color: white;
+}
+
+#option1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+
 }
 
 #option2 {
 	width: 300px;
 	color: #EF0B0B;
+	transition-duration: 0.6s;
+	border-radius: 7px;
+	background-color: white;
+}
+
+#option2:hover {
+    background-color: red; /* Green */
+    color: white;
+    
 }
 
 #rect{
