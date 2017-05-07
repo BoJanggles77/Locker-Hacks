@@ -1,0 +1,65 @@
+body {
+	background: #C3C2CA;
+}
+
+table,tr,td{
+    border: 1px solid black;
+}
+
+table{
+    width:100%;
+    text-align:center;
+}
+
+td{
+    height:200px;
+    background: green;
+    color: white;
+}
+
+.hide {
+	display: none;
+}
+
+.right{
+	float: right;
+}
+
+.center{
+	float: center;
+}
+
+#button-container {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#click{
+	width: 400px;
+	background: #626060;
+	color: white;
+}
+
+#option1{
+
+	width: 300px;
+	color: #05973A;
+}
+
+#option2 {
+	width: 300px;
+	color: #EF0B0B;
+}
+
+#rect{
+	display: inline;
+	vertical -align: center;
+}
+
+#snoop{
+	display: none;
+}
+
+#locker{
+	display: none;
+}
